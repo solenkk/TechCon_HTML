@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TechCon 2024 Schedule - Detailed timetable of events, sessions, and speakers">
+    <title>Schedule - TechCon 2024</title>
+    <style>
+        /* Basic styling for better presentation */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        nav {
+            background-color: #1a2a6c;
+            padding: 1rem 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav li {
+            margin: 0 1.5rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        
+        .schedule-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        caption {
+            font-size: 1.5rem;
+            font-weight: bold;
+            padding: 1.5rem;
+            background-color: #1a2a6c;
+            color: white;
+            caption-side: top;
+        }
+        
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: left;
+        }
+        
+        td {
+            padding: 1rem;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        tr:hover {
+            background-color: #e9f7fe;
+        }
+        
+        .time-slot {
+            font-weight: 600;
+            color: #1a2a6c;
+        }
+        
+        .session-title {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .speaker-name {
+            color: #b21f1f;
+            font-weight: 500;
+        }
+        
+        .keynote {
+            background-color: #fff9e6 !important;
+            border-left: 4px solid #fdbb2d;
+        }
+        
+        .workshop {
+            background-color: #e6f7ff !important;
+            border-left: 4px solid #1a2a6c;
+        }
+        
+        .panel {
+            background-color: #f0e6ff !important;
+            border-left: 4px solid #6f42c1;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            th, td {
+                padding: 0.75rem 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Schedule for TechCon 2024</h1>
+    </header>
+    
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <div class="schedule-container">
+            <table>
+                <caption>Detailed Schedule of Events for TechCon 2024</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">Session</th>
+                        <th scope="col">Speaker</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="keynote">
+                        <td class="time-slot">8:00 AM - 9:00 AM</td>
+                        <td class="session-title">Registration & Welcome Coffee</td>
+                        <td class="speaker-name">-</td>
+                    </tr>
+                    <tr class="keynote">
+                        <td class="time-slot">9:00 AM - 9:30 AM</td>
+                        <td class="session-title">Opening Keynote: The Future of Technology</td>
+                        <td class="speaker-name">Dr. Evelyn Reed</td>
+                    </tr>
+                    <tr class="panel">
+                        <td class="time-slot">9:30 AM - 10:30 AM</td>
+                        <td class="session-title">Panel: AI Ethics in Modern Business</td>
+                        <td class="speaker-name">Marcus Johnson, Sarah Chen, Dr. Robert Kim</td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">10:30 AM - 11:00 AM</td>
+                        <td class="session-title">Networking Break</td>
+                        <td class="speaker-name">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">11:00 AM - 12:00 PM</td>
+                        <td class="session-title">Quantum Computing: Beyond the Hype</td>
+                        <td class="speaker-name">Dr. Amanda Foster</td>
+                    </tr>
+                    <tr class="workshop">
+                        <td class="time-slot">12:00 PM - 1:00 PM</td>
+                        <td class="session-title">Workshop: Building Secure Systems</td>
+                        <td class="speaker-name">Alex Rodriguez</td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">1:00 PM - 2:00 PM</td>
+                        <td class="session-title">Lunch Break</td>
+                        <td class="speaker-name">-</td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">2:00 PM - 3:00 PM</td>
+                        <td class="session-title">The Metaverse: Opportunities and Challenges</td>
+                        <td class="speaker-name">Jennifer Lee</td>
+                    </tr>
+                    <tr class="panel">
+                        <td class="time-slot">3:00 PM - 4:00 PM</td>
+                        <td class="session-title">Panel: Sustainable Tech Solutions</td>
+                        <td class="speaker-name">David Wilson, Maria Garcia, Kenji Tanaka</td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">4:00 PM - 4:30 PM</td>
+                        <td class="session-title">Afternoon Break</td>
+                        <td class="speaker-name">-</td>
+                    </tr>
+                    <tr class="workshop">
+                        <td class="time-slot">4:30 PM - 5:30 PM</td>
+                        <td class="session-title">Workshop: DevOps Best Practices</td>
+                        <td class="speaker-name">Michael Thompson</td>
+                    </tr>
+                    <tr class="keynote">
+                        <td class="time-slot">5:30 PM - 6:00 PM</td>
+                        <td class="session-title">Closing Keynote: Technology for Social Good</td>
+                        <td class="speaker-name">Dr. Lisa Morgan</td>
+                    </tr>
+                    <tr>
+                        <td class="time-slot">6:00 PM - 7:30 PM</td>
+                        <td class="session-title">Networking Reception</td>
+                        <td class="speaker-name">-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; Copyright 2024 TechCon Conference. All rights reserved.</p>
+    </footer>
+</body>
+</html>
